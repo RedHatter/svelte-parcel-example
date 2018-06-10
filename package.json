@@ -1,0 +1,15 @@
+{
+  "name": "svelte-parcel-example",
+  "version": "1.0.0",
+  "description": "Example Parcel Svelte setup",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "main": "index.js",
+  "author": "Timothy Johnson",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1",
+    "parcel-plugin-svelte": "^1.2.1"
+  }
+}
