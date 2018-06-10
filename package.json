@@ -10,6 +10,7 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "parcel-bundler": "^1.8.1",
-    "parcel-plugin-svelte": "^1.2.1"
+    "parcel-plugin-svelte": "^1.2.1",
+    "svelte": "^2.7.2"
   }
 }
