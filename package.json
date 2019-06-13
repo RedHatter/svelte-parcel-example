@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "Example Parcel Svelte setup",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel build --no-source-maps src/index.html"
   },
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
   "main": "index.js",
   "author": "Timothy Johnson",
   "license": "GPL-3.0",
   "devDependencies": {
     "parcel-bundler": "^1.8.1",
-    "parcel-plugin-svelte": "^1.2.1",
-    "svelte": "^2.7.2"
+    "parcel-plugin-svelte": "^3.0.1",
+    "svelte": "^3.5.1"
   }
 }
